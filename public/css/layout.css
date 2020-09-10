@@ -1,0 +1,84 @@
+@font-face {
+    font-family: chispa;
+    src: url('/fonts/Chispa.otf');
+}
+
+@font-face {
+    font-family: coffee-icons;
+    src: url('/fonts/coffee-icons.ttf');
+}
+
+@media (max-width: 768px) {
+    #text1 {
+        font-size: 1.1em;
+    }
+
+    #text2 {
+        font-size: 1.1em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+    #text1 {
+        font-size: 1.3em;
+    }
+
+    #text2 {
+        font-size: 1.3em;
+    }
+}
+
+nav {
+    font-family: chispa;
+    font-weight: normal;
+    font-size: larger;
+    background: rgb(100, 0, 0);
+}
+
+body, html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: medium;
+    height: 100%;
+    margin: 0;
+}
+
+body{ 
+    display: flex; 
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: auto;
+    /* padding-bottom: 120px; */
+}
+
+#icon-coffee {
+    font-family: coffee-icons;
+    font-weight: normal;
+    font-size: xx-large;
+}
+
+#background1 {
+    background-image: url("/img/nossos-cafes/graos.jpg");
+    height: 300px;
+    width: 100%;
+}
+
+#background2 {
+    background-image: url("/img/nossos-cafes/xicara.jpg");
+    height: 300px;
+    width: 100%;
+}
+
+#text-background1 {
+    background: rgb(100, 0, 0);
+    height: 300px;
+    width:100%;
+}
+
+#text-background2 {
+    background: rgb(100, 0, 0);
+    height: 300px;
+    width:100%;
+}
