@@ -29,10 +29,10 @@
 }
 
 nav {
-    font-family: chispa;
+    /* font-family: chispa; */
     font-weight: normal;
-    font-size: larger;
-    background: rgb(100, 0, 0);
+    font-size: medium;
+    background: rgb(150, 0, 0);
 }
 
 body, html {
@@ -50,6 +50,7 @@ body{
 
 .footer {
     margin-top: auto;
+    background: rgb(150, 0, 0);
     /* padding-bottom: 120px; */
 }
 
@@ -72,13 +73,13 @@ body{
 }
 
 #text-background1 {
-    background: rgb(100, 0, 0);
+    background: rgb(240,230,140);
     height: 300px;
     width:100%;
 }
 
 #text-background2 {
-    background: rgb(100, 0, 0);
+    background: rgb(240,230,140);
     height: 300px;
     width:100%;
 }

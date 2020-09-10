@@ -22,15 +22,15 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item p-2 mx-auto {{ request()->is("cafes") ? 'active' : '' }}">
-                        <a class="nav-link" href="/cafes">Nossos cafés 
+                        <a class="nav-link" href="/cafes">nossos cafés 
                         {{-- <span id="icon-coffee">K</span> --}}
                         </a>
                     </li>
                     <li class="nav-item p-2 mx-auto {{ request()->is("sobre") ? 'active' : '' }}">
-                        <a class="nav-link" href="/sobre">Sobre nós</a>
+                        <a class="nav-link" href="/sobre">sobre nós</a>
                     </li>
                     <li class="nav-item p-2 mx-auto {{ request()->is("contato") ? 'active' : '' }}">
-                        <a class="nav-link" href="/contato">Contato</a>
+                        <a class="nav-link" href="/contato">contato</a>
                     </li>
                 </ul>
             </div>
@@ -45,10 +45,10 @@
         </div>
 
         <!-- Footer -->
-        <footer class="footer page-footer font-small blue pt-4">
+        <footer class="footer page-footer font-small blue pt-4 text-light">
 
             <!-- Footer Links -->
-            <div class="container-fluid text-center text-md-left">
+            <div class="container-fluid text-center text-md-left footer-links">
         
             <!-- Grid row -->
             <div class="row">
@@ -108,8 +108,9 @@
             <!-- Footer Links -->
         
             <!-- Copyright -->
-            <div class="footer-copyright text-center py-3">© 2020 Copyright:
-                Todos os direitos reservados
+            <div class="footer-copyright text-center py-3">
+                <hr style="border: 1px dashed">
+                © 2020 Copyright: Todos os direitos reservados
             </div>
             <!-- Copyright -->
         
