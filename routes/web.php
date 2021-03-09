@@ -28,3 +28,6 @@ Route::get('/sobre', function() {
 Route::get('/contato', function() {
     return view('contato');
 })->name('contato');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

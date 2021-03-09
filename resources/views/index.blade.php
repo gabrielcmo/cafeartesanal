@@ -3,7 +3,8 @@
 @section('title') Fantini Café - Página Inicial @endsection
 
 @section('before-container')
-    <div id="carouselExampleControls" style="max-width: 80%;" class="carousel slide mx-auto" data-ride="carousel">
+<br>
+    <div id="carouselExampleControls" style="max-width: 60%;" class="carousel slide mx-auto" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="d-block w-100" src="{{ asset("img/carousel-landing-00.jpg") }}" alt="First slide">
@@ -27,12 +28,13 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+<br>
 
-    <script>
+    <!-- <script>
         $('.carousel').carousel({
             interval: 4800
         });
-    </script>
+    </script> -->
 @endsection
 
 @section('content')

@@ -12,7 +12,7 @@
     </head>
     <body>
         <!-- Image and text -->
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="/">
                 <img src="{{ asset("img/fonte-cafe-fantini.png") }}" width="250" class="d-inline-block align-top" alt="">
             </a>
@@ -45,7 +45,7 @@
         </div>
 
         <!-- Footer -->
-        <footer class="footer page-footer font-small blue pt-4 text-light">
+        <footer class="footer page-footer font-small pt-4 text-dark">
 
             <!-- Footer Links -->
             <div class="container-fluid text-center text-md-left footer-links">
@@ -73,13 +73,13 @@
             
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#!">Facebook</a>
+                            <a class="footer-link" href="#!">Facebook</a>
                         </li>
                         <li>
-                            <a href="#!">Instagram</a>
+                            <a class="footer-link" href="#!">Instagram</a>
                         </li>
                         <li>
-                            <a href="#!">Twitter</a>
+                            <a class="footer-link" href="#!">Twitter</a>
                         </li>
                     </ul>
             
@@ -94,7 +94,7 @@
             
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#!">Whatsapp</a>
+                            <a class="footer-link" href="#!">Whatsapp</a>
                         </li>
                     </ul>
             
@@ -106,10 +106,9 @@
         
             </div>
             <!-- Footer Links -->
-        
+    
             <!-- Copyright -->
-            <div class="footer-copyright text-center py-3">
-                <hr style="border: 1px dashed">
+            <div class="footer-copyright text-center text-light py-3">
                 © 2020 Copyright: Todos os direitos reservados
             </div>
             <!-- Copyright -->

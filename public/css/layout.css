@@ -29,10 +29,9 @@
 }
 
 nav {
-    /* font-family: chispa; */
     font-weight: normal;
-    font-size: medium;
-    background: rgb(150, 0, 0);
+    font-size: larger;
+    background: #c4a070;
 }
 
 body, html {
@@ -48,9 +47,23 @@ body{
     flex-direction: column;
 }
 
+.footer-link {
+    color: white;
+}
+
+.footer-link:hover {
+    color: gainsboro;
+}
+
 .footer {
     margin-top: auto;
-    background: rgb(150, 0, 0);
+    background: #b5976f;
+    /* padding-bottom: 120px; */
+}
+
+.footer-copyright {
+    margin-top: auto;
+    background: #695843;
     /* padding-bottom: 120px; */
 }
 
@@ -60,26 +73,7 @@ body{
     font-size: xx-large;
 }
 
-#background1 {
-    background-image: url("/img/nossos-cafes/graos.jpg");
-    height: 300px;
-    width: 100%;
-}
-
-#background2 {
-    background-image: url("/img/nossos-cafes/xicara.jpg");
-    height: 300px;
-    width: 100%;
-}
-
-#text-background1 {
-    background: rgb(240,230,140);
-    height: 300px;
-    width:100%;
-}
-
-#text-background2 {
-    background: rgb(240,230,140);
-    height: 300px;
-    width:100%;
+.container {
+    padding-top: 1cm; 
+    padding-bottom: 5cm; 
 }
