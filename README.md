@@ -1,61 +1,90 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+### Café Artesanal
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen) ![Total Downloads](https://img.shields.io/packagist/dt/laravel/framework) ![Latest Stable Version](https://img.shields.io/packagist/v/laravel/framework) ![License](https://img.shields.io/badge/license-MIT-blue)
 
-## About Laravel
+## Sobre o Projeto
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+O **Site de Anúncios de Café Artesanal** é uma plataforma desenvolvida com o framework Laravel, que conecta produtores e consumidores apaixonados por café artesanal. O objetivo é criar um espaço onde produtores possam divulgar seus produtos e consumidores possam encontrar cafés exclusivos, além de contribuir para a valorização do mercado de cafés especiais.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### Recursos Principais
+- **Design responsivo**: acessível tanto para dispositivos móveis quanto desktops.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## Sobre o Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Laravel é um framework PHP elegante e expressivo, projetado para facilitar o desenvolvimento de aplicações web. Ele simplifica tarefas comuns, como:
+- Roteamento simples e eficiente.
+- Contêiner de injeção de dependências poderoso.
+- Armazenamento de sessões e cache com múltiplos back-ends.
+- ORM intuitivo para bancos de dados.
+- Migrações de esquema agnósticas.
+- Processamento robusto de tarefas em segundo plano.
+- Broadcast de eventos em tempo real.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+O Laravel é acessível, poderoso e oferece ferramentas para o desenvolvimento de aplicações robustas e escaláveis.
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## Requisitos do Sistema
 
-### Premium Partners
+- PHP >= 8.1
+- Composer
+- MySQL ou PostgreSQL
+- Extensões PHP: OpenSSL, PDO, Mbstring, Tokenizer, XML, Ctype, JSON
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
+---
 
-## Contributing
+## Instalação
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seuusuario/seuprojeto.git
+   cd seuprojeto
+   ```
 
-## Code of Conduct
+2. Instale as dependências:
+   ```bash
+   composer install
+   ```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+3. Configure o arquivo `.env`:
+   - Duplique o arquivo `.env.example` e renomeie para `.env`.
+   - Configure as credenciais de banco de dados e outras informações relevantes.
 
-## Security Vulnerabilities
+4. Execute as migrações e seeders:
+   ```bash
+   php artisan migrate --seed
+   ```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+5. Inicie o servidor de desenvolvimento:
+   ```bash
+   php artisan serve
+   ```
 
-## License
+---
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Como Contribuir
+
+Contribuições são sempre bem-vindas! Para contribuir, siga os passos:
+1. Faça um fork do repositório.
+2. Crie uma branch para sua feature/bugfix: `git checkout -b minha-feature`.
+3. Faça o commit das alterações: `git commit -m 'Minha feature'`.
+4. Envie para seu fork: `git push origin minha-feature`.
+5. Abra um pull request neste repositório.
+
+---
+
+## Código de Conduta
+
+A comunidade Laravel adota um código de conduta para manter o ambiente respeitoso e acolhedor. Por favor, consulte [Code of Conduct](https://laravel.com/docs/code-of-conduct) para mais informações.
+
+---
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT). 
+
+---
+
+Para dúvidas ou sugestões, sinta-se à vontade para abrir uma [issue](https://github.com/seuusuario/seuprojeto/issues) ou enviar um e-mail para `seuemail@example.com`.
