@@ -4,7 +4,7 @@
 
 ## Sobre o Projeto
 
-O **Site de Anúncios de Café Artesanal** é uma plataforma desenvolvida com o framework Laravel, que conecta produtores e consumidores apaixonados por café artesanal. O objetivo é criar um espaço onde produtores possam divulgar seus produtos e consumidores possam encontrar cafés exclusivos, além de contribuir para a valorização do mercado de cafés especiais.
+O **Café Artesanal** é um site desenvolvida com o framework Laravel para anunciar café artesanal. O objetivo é criar um espaço onde produtores possam divulgar seus produtos e consumidores possam encontrar cafés exclusivos, além de contribuir para a valorização do mercado de cafés especiais.
 
 ### Recursos Principais
 - **Design responsivo**: acessível tanto para dispositivos móveis quanto desktops.
